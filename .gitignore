@@ -1,0 +1,111 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directorios de testing
+coverage/
+.nyc_output/
+lib-cov/
+
+# Directorios de build
+dist/
+build/
+out/
+
+# Archivos de sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*~
+.project
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Archivos específicos de Node
+.node_repl_history
+
+# Archivos de configuración local
+config/local.js
+config/local.json
+
+# Archivos temporales
+temp/
+tmp/
+*.temp
+*.cache
+
+# PM2
+.pm2/
+pids/
+*.pid
+
+# MongoDB
+data/
+
+# Certificados SSL (si los usas)
+*.pem
+*.key
+*.crt
+*.cert
+
+# Archivos de respaldo
+*.backup
+*.old
+
+# Jest
+jest.config.js
+
+# ESLint
+.eslintcache
+
+# TypeScript (si usas TS en el futuro)
+*.tsbuildinfo
+
+# Render específico
+.render/
+
+# Archivos de deploy
+.deployment
+deploy.sh
